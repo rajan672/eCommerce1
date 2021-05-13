@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-commerce website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+       <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="">Sell</a></li>
+                <li><a href="">Marketplace</a></li>
+                <li><a href="">Community</a></li>
+                <li><a href="">Develop</a></li>
+                <li><a href="">Resources</a></li>
+            </ul>
+        </nav>
+        <div class="navbar2">
+            <nav>
+                <ul>
+                    <li><a href="">Log In</a></li>
+                    <button class="button"><a href="#getstart">Get Started</a></button>
+                </ul>
+            </nav>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1> Building exactly the <br>eCommerce website <br>you want.</h1>
+                <p>WooCommerce is a customizable, open-source eCommerce <br> platform built on WordPress.
+                   <br> Get started quickly and make your way.</p>
+                <a href="#getstart" class="btn">Start a New Store</a> or <a href="" class="Nonbtn">Customize & Extend ›</a>
+            </div>
+            <div class="col-2">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="Images/01.jpg" width="300px" height="400px" alt="">
+                    </div>
+                    <div class="col-2" id="shoes">
+                        <p><b>S H O E S</b>  <span>   Adidas Originals</span> </p>
+                        <h3>Adidas Originals <br>
+                            OG Sneakers
+                        </h3>
+                        <div>
+                            <button type="button" id="size" class="done" onclick="sizeselect()">7</button>
+                            <button type="button" id="size" class="done" onclick="sizeselect()">7.5</button>
+                            <button type="button" id="size" class="done" onclick="sizeselect()">8</button>
+                            <button type="button" id="size" onclick="sizeselect()">8.5</button>
+                            <button type="button" id="size" onclick="sizeselect()">9</button>
+                        </div>
+                        <div class="price">
+                            <p>$344</p>
+                            <input type="button" id="sub" value="-" onclick="subtract()">
+                            <input type="button" id="txtNumber" value="1">
+                            <input type="button" id="add" value="+" onclick="add()">
+                        </div>
+                        <div class="cutprice">
+                            <p><strike> $560</strike></p>
+                        </div>
+                        
+                        
+                        <button class="buttonn" id="cart" type="button" onclick="cart()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<!-----featured categories-->
+    <div class="categories" id="getstart">
+        <div class="text"> 
+            <h1>Your eCommerce<br>made simple</h1>
+        </div>
+        <div class="small-cont">
+        <div class="row">
+            <div class="col-3">
+                <img src="Images/1.jpg" alt="">
+                <h2>All You Need to Start</h2>
+                <p>Add WooCommerce plugin to any WordPress site and 
+                    set up a new store in minutes.</p>
+                
+                <a href="" class="Nonbtn">Ecommerce for Wordpress ›</a>
+            </div>
+            <div class="col-3">
+                <img src="Images/2star.png" alt="">
+                <h2>Customize and Extend</h2>
+                <p>From subscriptions to gym classes to luxury cars, 
+                    WooCommerce is fully customizable.</p>
+                
+                <a href="" class="Nonbtn">Browse Extensions ›</a>
+            </div>
+            <div class="col-3">
+                <img src="Images/3star.jpg" alt="">
+                <h2>Active Community</h2>
+                <p>WooCommerce is one of the fastest-growing 
+                    eCommerce communities. </p>
+
+                <a href="" class="Nonbtn">Check our Forums ›</a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
